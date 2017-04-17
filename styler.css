@@ -1,0 +1,67 @@
+
+/*Шапка*/
+header{
+	background: #00b0d8 url(images/header.jpg) center ;
+	height: 200px;
+	width: 100%;
+	margin: 0;
+	border-bottom: 3px;
+	border-color: red;
+}
+#name-title{
+	font-family: serif;
+	font-size: 30px;/*размер шрифта*/
+	font-weight: bold;
+	margin-top: 0px;
+}
+#info{
+	position: relative;
+	text-align: right;
+	right: 30px;
+	margin: 0;
+	
+}
+#grap:hover{
+
+border: 6px solid red;
+}
+.round {
+    border-radius: 20px; /* Радиус скругления */
+    border: 3px solid #5bc0eb; /* Параметры рамки */
+    box-shadow: 0 0 20px #666; /* Параметры тени */
+   }
+header p {
+	font-family: Tahoma;
+	font-size: 12px;/*размер шрифта*/
+	font-weight: bold;/*ширина шрифта */
+	font-style: italic;/*курсив*/
+} 
+/*Тело нашего*/
+body{
+	background: #5bc0eb;
+	margin: 0px;
+}
+/**/
+main{
+	padding: 10px 0;
+	margin-bottom: 0;
+
+}
+main h3{
+	font-family: Tahoma;
+	font-size: 20px;/*размер шрифта*/
+	font-weight: bold;/*ширина шрифта */
+	font-style: italic;/*курсив*/
+	text-align: center;
+}
+.data{
+	text-align: right;
+	background-color: white;
+}
+footer{
+	background: #fff url(images/footer.jpg) center ;
+	height: 83px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
